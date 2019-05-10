@@ -19,14 +19,14 @@ This document serves as a foundation for the principles and practices that defin
 - You keep the scope in mind, understanding and contextualizing requirements and constraints for designers and engineers. 
 - You are pragmatic and tool agnostic, never locked into one way of doing things.
 - You try to understand the technical complexities of a problem before and during the design process, to ensure technical opportunities and limitations are fully realised.
-- You design in code, and your code is well designed.
+- You design in code, and your code is well-designed.
 
 #### Seeing opportunities across product areas
-- You notice how one area of product development affords opportunities or other areas and connect the two
+- You notice how one area of product development affords opportunities for other areas and connect the two
 
 #### Keep it simple
 - You understand that simplicity is key to good design and development. Your knowledge of both practices enables you to find the simplest solution to complex problems.
-- Hand-hold, don’t hand-off
+- Hand-hold, don’t hand-off.
 - As you create a design, you don’t hand it off when it's done and move on. This is when the design has to meet with reality, and that process is messy, frustrating, full of compromises, and a crucial step of the process. As a creative technologist, you are along for the entire ride, and help make the vision come to fruition as best it can.
 
 ## What Makes a Good Process?
@@ -40,7 +40,7 @@ _The Challenge_: in the face of technical debt and changing requirements, estima
 
 _The Solution_: You can employ a few different strategies to rapidly bring clarity from the Creative Technologist’s perspective:
 1. Prototyping and quick technical explorations can significantly reduce uncertainty in situations where the scope is unknown. 
-2. Mapping out technical dependencies between engineering and design -- identifying where collaboration and communication is needed -- can help teams prioritize work streams. 
+2. Mapping out technical dependencies between engineering and design – identifying where collaboration and communication is needed – can help teams prioritize work streams. 
 
 #### Don’t design in a silo
 _The Challenge_: It can be tempting to take an idea and run with it, especially when writing good code can take long amounts of uninterrupted, focused time, amplified by a remote work environment. The risk of investing too much time without seeking feedback and context is high.
