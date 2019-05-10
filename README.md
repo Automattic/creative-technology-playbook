@@ -56,9 +56,8 @@ _The Solution_: Below is a good framework for the conversations that are most ap
 3. Convergence: “How can we tighten this up?” In the final stages of the design process, the focus is on the details. Is the code performant and well designed? Have we tested that our solution is robust? Engaging our partners in engineering may also be an important piece of feedback at this stage. 
 
 #### Don’t be afraid of users
-The Challenge: Considering how people actually use your work can be an intimidating proposition in the face of tight timelines and untested code.
-The Solution:  
-
+_The Challenge_: Considering how people actually use your work can be an intimidating proposition in the face of tight timelines and untested code.
+_The Solution_: Sharing something you've made with real users can be uncomfortable. Remember that no solution is perfect on the first go-around. Iteration is key. Ensuring that your work has well-defined and well-qualified success metrics is key to learning and iteration.
 
 #### Be inspired by instinct, but informed by data
 _The Challenge_: Not every potential solution has data to back it up immediately. Knowing when you’re onto a good solution in the absence of data is an art. 
