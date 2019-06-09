@@ -1,6 +1,8 @@
 # About
 This document serves as a foundation for the principles and practices that define Creative Technology at Automattic Design. 
 
+_To try the web AR experiment, visit [this page](https://automattic.github.io/creative-technology-playbook/index.html) from your mobile phone._
+
 ## What Makes a Good Creative Technologist?
 #### Embraces experimentation
 - You are passionate about applying new technologies -- making things not just for the sake of it, but to make a dent in our future.
