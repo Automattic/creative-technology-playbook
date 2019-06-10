@@ -3,7 +3,7 @@ For the Automattic Creative Technology Playbook, we experimented with web-based 
 
 To try the web AR experiment, visit [this page](https://automattic.github.io/creative-technology-playbook/index.html) from your mobile phone when you see an illustration like this: 
 
-![Example AR.js Marker](/assets/marker_example.png?raw=true "Speed AR.js Marker")
+![Example AR.js Marker](/assets/marker_example.png?raw=true =300x300 "Speed AR.js Marker")
 
 _Tested on iOS Safari (12.2+) and Android Chrome_
 
