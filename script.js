@@ -180,19 +180,54 @@ function initConnectionParticleLeft( particle, delay ){
 
 	new TWEEN.Tween( particle )
 		.delay( delay  )
-		.to( {}, 1500  )
+		.to( {}, 2000  )
 		.onComplete( initConnectionParticleLeft )
 		.start();
 
+	var out = new TWEEN.Tween( particle.position  )
+		.to( { z: 0 }, 1000 )
+		.easing(TWEEN.Easing.Circular.In) 
+
 	new TWEEN.Tween( particle.position  )
 		.delay( delay  )
-		.to( { z: 1 }, 5000  )
+		.to( { z: -.12 }, 1000  )
 		.easing(TWEEN.Easing.Circular.Out) 
-		.start();
+		.start()
+		.chain( out )
 
 	new TWEEN.Tween( particle.position )
 		.delay( delay  )
-		.to( { x: 1 }, 5000  )
+		.to( { x: .2 }, 2000  )
+		.start();
+}
+
+function initConnectionParticleRight( particle, delay ){
+	var particle = this instanceof THREE.Sprite ? this : particle;
+	var delay = delay !== undefined ? delay : 0;
+
+	particle.position.set( 0.2, 0, 0 );
+	particle.scale.x = particle.scale.y = .1;
+
+	new TWEEN.Tween( particle )
+		.delay( delay  )
+		.to( {}, 2000  )
+		.onComplete( initConnectionParticleRight )
+		.start();
+
+	var out = new TWEEN.Tween( particle.position  )
+		.to( { z: 0 }, 1000 )
+		.easing(TWEEN.Easing.Circular.In) 
+
+	new TWEEN.Tween( particle.position  )
+		.delay( delay  )
+		.to( { z: -.12 }, 1000  )
+		.easing(TWEEN.Easing.Circular.Out) 
+		.start()
+		.chain( out )
+
+	new TWEEN.Tween( particle.position )
+		.delay( delay  )
+		.to( { x: -0.2 }, 2000  )
 		.start();
 }
 
@@ -216,9 +251,14 @@ particle = new THREE.Sprite( material );
 initFastParticle( particle, 0 );
 createMarker( 'speed', scene, particle, 'speed.patt' );
 
+var group = new THREE.Group();
 particle = new THREE.Sprite( material );
+group.add(particle);
 initConnectionParticleLeft( particle, 0 );
-createMarker( 'connection', scene, particle, 'connection.patt' );
+particle = new THREE.Sprite( material );
+group.add(particle);
+initConnectionParticleRight( particle, 0 );
+createMarker( 'connection', scene, group, 'connection.patt' );
 
 //////////////////////////////////////////////////////////////////////////////////
 //		render the whole thing on the page
