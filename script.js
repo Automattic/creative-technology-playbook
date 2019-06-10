@@ -263,8 +263,8 @@ createMarker( 'connection', scene, group, 'connection.patt' );
 //////////////////////////////////////////////////////////////////////////////////
 //		render the whole thing on the page
 //////////////////////////////////////////////////////////////////////////////////
-var stats = new Stats();
-document.body.appendChild( stats.dom );
+// var stats = new Stats();
+// document.body.appendChild( stats.dom );
 
 function animate(){
 	renderer.render( scene, camera );
@@ -272,7 +272,7 @@ function animate(){
 		renderFct();
 	});
 	TWEEN.update();
-	stats.update();
+	// stats.update();
 	requestAnimationFrame( animate );
 }
 
