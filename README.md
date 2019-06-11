@@ -1,5 +1,5 @@
-# About
-Visit [this page](https://automattic.github.io/creative-technology-playbook/index.html) from your mobile phone when you see an illustration like this in the playbook: 
+# Instructions
+### Visit [this page](https://automattic.github.io/creative-technology-playbook/index.html) from your mobile phone when you see an illustration like this in the playbook:
 
 <img src="/assets/marker_example.png" alt="Example AR.js Marker" width="300">
 
